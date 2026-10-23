@@ -1,0 +1,178 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c86b8f09-0c8d-4af3-b75d-3e3808973907")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 161.29 24.13)
+		(end 238.76 72.39)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0c9b847e-2e57-41a3-9909-0774b4e4e1cf")
+	)
+	(rectangle
+		(start 87.63 24.13)
+		(end 152.4 72.39)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4f538ccd-abae-460f-a458-c1e0b32a82ab")
+	)
+	(rectangle
+		(start 16.51 24.13)
+		(end 81.28 72.39)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9fbe322d-c704-4641-b6a3-73e8c6a0db07")
+	)
+	(text "RP2354A MCU"
+		(exclude_from_sim no)
+		(at 36.576 21.082 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "552ed411-7492-4c88-b13e-71a4fc9e1abe")
+	)
+	(text "Power MGMT"
+		(exclude_from_sim no)
+		(at 105.156 21.336 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "5dcbce53-e2e3-447b-b290-d41884cd58ec")
+	)
+	(text "Transducer Inputs/Outputs"
+		(exclude_from_sim no)
+		(at 198.628 21.336 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "a58560ef-143b-429e-a42b-9488cb6b1604")
+	)
+	(sheet
+		(at 21.59 29.21)
+		(size 54.61 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6eb9437b-901d-47ba-a8d4-b959d43bd9eb")
+		(property "Sheetname" "RP2354A"
+			(at 21.59 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2354A.kicad_sch"
+			(at 21.59 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 29.21)
+		(size 50.8 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a96b66e7-5dca-40db-b515-a5fc050dff35")
+		(property "Sheetname" "Power_Management"
+			(at 93.98 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Management.kicad_sch"
+			(at 93.98 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
