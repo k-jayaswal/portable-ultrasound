@@ -78,6 +78,52 @@
 		(uuid "a58560ef-143b-429e-a42b-9488cb6b1604")
 	)
 	(sheet
+		(at 170.815 31.75)
+		(size 61.595 33.655)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16d51cbf-ea56-46fd-b854-71c215d4041c")
+		(property "Sheetname" "transducer_out"
+			(at 170.815 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transducer_out.kicad_sch"
+			(at 170.815 65.9896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 29.21)
 		(size 54.61 36.83)
 		(exclude_from_sim no)
