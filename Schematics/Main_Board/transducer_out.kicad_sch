@@ -7037,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7117,7 +7117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -7278,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7440,7 +7440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7521,7 +7521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.148 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -7601,7 +7601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.45 19.3548 0)
 			(hide yes)
 			(show_name no)
@@ -7682,7 +7682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7764,7 +7764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7846,7 +7846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 294.3352 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8009,7 +8009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.6652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8091,7 +8091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 127 0)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 277.622 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -8338,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.0348 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.5152 127 0)
 			(hide yes)
 			(show_name no)
@@ -8499,7 +8499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 130.5052 0)
 			(hide yes)
 			(show_name no)
@@ -8578,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -8750,7 +8750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_arduino-library:Arduino_Mini_Socket_NoSPH"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
 			(at 73.66 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8910,7 +8910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.66 28.2448 0)
 			(hide yes)
 			(show_name no)
@@ -8991,7 +8991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9071,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 130.5052 0)
 			(hide yes)
 			(show_name no)
@@ -9151,7 +9151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -9312,7 +9312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 275.8948 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9552,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 115.8748 0)
 			(hide yes)
 			(show_name no)
@@ -9633,7 +9633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 264.4648 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9793,7 +9793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "PU_Lib:CP_32_2_ADI"
 			(at 204.47 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10049,7 +10049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOT96P240X110-3N"
+		(property "Footprint" "PU_Lib:SOT96P240X110-3N"
 			(at 233.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10220,7 +10220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 292.862 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -10382,7 +10382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOT96P240X110-3N"
+		(property "Footprint" "PU_Lib:SOT96P240X110-3N"
 			(at 233.35 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10632,7 +10632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10794,7 +10794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -10954,7 +10954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.8952 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11034,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_arduino-library:Arduino_Mini_Socket_NoSPH"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
 			(at 73.66 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11115,7 +11115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11196,7 +11196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 185.1152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11277,7 +11277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11519,7 +11519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11599,7 +11599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-243AA_MCH"
+		(property "Footprint" "PU_Lib:TO-243AA_MCH"
 			(at 97.79 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11766,7 +11766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11927,7 +11927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADC3910D065IRSMR:IC_ADC3910D065IRSMR"
+		(property "Footprint" "PU_Lib:IC_ADC3910D065IRSMR"
 			(at 102.87 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12271,7 +12271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 219.71 40.3352 0)
 			(hide yes)
 			(show_name no)
@@ -12352,7 +12352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 202.692 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -12596,7 +12596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 299.212 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -12677,7 +12677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.248 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -12757,7 +12757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-243AA_MCH"
+		(property "Footprint" "PU_Lib:TO-243AA_MCH"
 			(at 97.79 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12921,7 +12921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 115.8748 0)
 			(hide yes)
 			(show_name no)
@@ -13165,7 +13165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13327,7 +13327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.0052 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13490,7 +13490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 211.7852 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13572,7 +13572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CP_32_2_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.8748 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13654,7 +13654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.832 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -13735,7 +13735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13816,7 +13816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.3714 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13896,7 +13896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RQ_20_ADI"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 28.2448 0)
 			(hide yes)
 			(show_name no)

@@ -18,6 +18,18 @@
 		(uuid "0c9b847e-2e57-41a3-9909-0774b4e4e1cf")
 	)
 	(rectangle
+		(start 16.51 88.9)
+		(end 81.28 137.16)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2d8d3022-8523-4017-9cef-1e74d56aa3be")
+	)
+	(rectangle
 		(start 87.63 24.13)
 		(end 152.4 72.39)
 		(stroke
@@ -40,6 +52,18 @@
 			(type none)
 		)
 		(uuid "9fbe322d-c704-4641-b6a3-73e8c6a0db07")
+	)
+	(text "Pulser + HV"
+		(exclude_from_sim no)
+		(at 36.576 86.106 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "551609ed-45a9-4d8f-8c25-f4f1224e7048")
 	)
 	(text "RP2354A MCU"
 		(exclude_from_sim no)
@@ -119,6 +143,102 @@
 			(project "Main_Board"
 				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 93.98)
+		(size 54.61 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b2f6c1e-8d4a-4c3b-9f1e-2a7d0c9e4b61")
+		(property "Sheetname" "Pulser_HV"
+			(at 21.59 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pulser_HV.kicad_sch"
+			(at 21.59 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX_POS" input
+			(at 21.59 99.06 180)
+			(uuid "883c3ca5-34f5-4dee-91c4-302515897df8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_NEG" input
+			(at 21.59 101.6 180)
+			(uuid "890ebb47-2024-4c70-ad76-79906b456da6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_DAMP" input
+			(at 21.59 104.14 180)
+			(uuid "1d782510-f7ec-4798-bc5c-629298aa17d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_OE" input
+			(at 21.59 106.68 180)
+			(uuid "aefdc18e-c657-4547-af4b-15bdc8ed05d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XDCR" bidirectional
+			(at 76.2 99.06 0)
+			(uuid "dc776345-31ba-4c6c-a0ab-2fd60765df1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Main_Board"
+				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907"
+					(page "5")
 				)
 			)
 		)
