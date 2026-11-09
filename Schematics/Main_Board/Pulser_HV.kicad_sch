@@ -6840,10 +6840,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f5f3363-ddc8-464e-a085-e8d48c4db25e")
 		(property "Reference" "C106"
-			(at 266.7 83.8136 0)
+			(at 253.746 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6854,7 +6853,7 @@
 			)
 		)
 		(property "Value" "1uF 100V"
-			(at 266.7 86.3536 0)
+			(at 253.746 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
