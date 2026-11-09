@@ -5305,7 +5305,7 @@
 		)
 		(uuid "11a8d327-c575-480c-8bba-fa9b73521b67")
 	)
-	(hierarchical_label "GPIO12"
+	(hierarchical_label "VGE_G"
 		(shape input)
 		(at 111.76 93.98 0)
 		(effects
