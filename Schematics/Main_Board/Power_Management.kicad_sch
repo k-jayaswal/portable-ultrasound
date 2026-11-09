@@ -4000,16 +4000,6 @@
 		)
 		(uuid "ce08072d-6697-4907-b0ea-ca458ddbf6c1")
 	)
-	(text "Voltage may change depending on our transducer"
-		(exclude_from_sim no)
-		(at 114.554 167.386 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d3aeb65a-63fe-497f-8872-f968576666a6")
-	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
 		(at 16.51 121.412 0)
