@@ -4893,6 +4893,17 @@
 		)
 		(uuid "0218d249-91f0-4625-84a9-4ffb0e8d06ab")
 	)
+	(text "Test"
+		(exclude_from_sim no)
+		(at 125.984 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "048491de-b2ba-44c1-9de3-73aad9cc82b9")
+	)
 	(text "Datasheet has important Layout Considerations"
 		(exclude_from_sim no)
 		(at 125.73 185.166 0)
