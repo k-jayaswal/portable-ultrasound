@@ -1196,208 +1196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
-			(pin_names
-				(offset 1)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "portable_ultrasound:AD8332ACPZ-R7"
+		(symbol "PU_Lib:AD8332ACPZ-R7"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1426,7 +1225,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CP_32_2_ADI"
+			(property "Footprint" "PU_Lib:CP_32_2_ADI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2139,7 +1938,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "portable_ultrasound:ADC3910D065IRSMR"
+		(symbol "PU_Lib:ADC3910D065IRSMR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2170,7 +1969,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ADC3910D065IRSMR:IC_ADC3910D065IRSMR"
+			(property "Footprint" "PU_Lib:IC_ADC3910D065IRSMR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2983,7 +2782,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "portable_ultrasound:BAV99-7-F"
+		(symbol "PU_Lib:BAV99-7-F"
 			(pin_names
 				(hide yes)
 			)
@@ -3014,7 +2813,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT96P240X110-3N"
+			(property "Footprint" "PU_Lib:SOT96P240X110-3N"
 				(at 12.7 -92.38 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3323,7 +3122,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "portable_ultrasound:MD0100N8-G"
+		(symbol "PU_Lib:MD0100N8-G"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3352,7 +3151,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TO-243AA_MCH"
+			(property "Footprint" "PU_Lib:TO-243AA_MCH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3508,6 +3307,207 @@
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4479,12 +4479,6 @@
 		(uuid "c4cd4d92-b0c1-4d73-8b50-2b54a5742f5a")
 	)
 	(junction
-		(at 60.96 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6b24d36-2acf-4774-9768-91903ee4d767")
-	)
-	(junction
 		(at 213.36 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4537,6 +4531,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee19538b-edf2-4c36-a3d2-b1a54eda8d85")
+	)
+	(junction
+		(at 60.96 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5066b61-55c8-41a4-ba62-424f655b5439")
 	)
 	(junction
 		(at 154.94 134.62)
@@ -5142,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 177.8) (xy 60.96 179.07)
+			(xy 58.42 177.8) (xy 58.42 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5449,6 +5449,16 @@
 			(type default)
 		)
 		(uuid "623d0c61-77c7-47c7-9731-797e873bb95e")
+	)
+	(wire
+		(pts
+			(xy 58.42 179.07) (xy 60.96 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62703e79-41ae-4ed2-99a3-8bbc20d3c8cd")
 	)
 	(wire
 		(pts
@@ -8048,7 +8058,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V2")
-		(at 60.96 177.8 0)
+		(at 58.42 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8059,7 +8069,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e820be8-c6d3-484c-9225-0b8631025590")
 		(property "Reference" "#PWR085"
-			(at 60.96 181.61 0)
+			(at 58.42 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8070,7 +8080,7 @@
 			)
 		)
 		(property "Value" "+1V2"
-			(at 60.96 172.72 0)
+			(at 58.42 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8080,7 +8090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 177.8 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 177.8 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V2\""
-			(at 60.96 177.8 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11246,7 +11256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:AD8332ACPZ-R7")
+		(lib_id "PU_Lib:AD8332ACPZ-R7")
 		(at 204.47 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -11578,7 +11588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:BAV99-7-F")
+		(lib_id "PU_Lib:BAV99-7-F")
 		(at 140.97 46.99 90)
 		(unit 1)
 		(body_style 1)
@@ -12143,7 +12153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:BAV99-7-F")
+		(lib_id "PU_Lib:BAV99-7-F")
 		(at 140.97 88.9 90)
 		(unit 1)
 		(body_style 1)
@@ -13979,7 +13989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:MD0100N8-G")
+		(lib_id "PU_Lib:MD0100N8-G")
 		(at 97.79 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -14307,7 +14317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:ADC3910D065IRSMR")
+		(lib_id "PU_Lib:ADC3910D065IRSMR")
 		(at 102.87 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -15215,7 +15225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:MD0100N8-G")
+		(lib_id "PU_Lib:MD0100N8-G")
 		(at 97.79 29.21 0)
 		(unit 1)
 		(body_style 1)
