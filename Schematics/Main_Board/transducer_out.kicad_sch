@@ -4148,6 +4148,16 @@
 		)
 		(uuid "c91c0f37-55e7-430b-8171-4c12e8899f38")
 	)
+	(text "Question: does this mean VC_Min needs to be like 1.3v?"
+		(exclude_from_sim no)
+		(at 63.5 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df1f9106-6e63-46e2-b2e3-5844b507376a")
+	)
 	(text "11k sets V_pp ~ 2 (clips at 2.5)\nADC has V_pp 1.9"
 		(exclude_from_sim no)
 		(at 213.106 110.998 0)
