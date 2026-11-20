@@ -3525,244 +3525,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "portable_ultrasound:ASE-25.000MHZ-L-C-T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -20.32 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ASE-25.000MHZ-L-C-T"
-				(at -20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ASE-25.000MHZ-L-C-T:XTAL_ASE-25.000MHZ-L-C-T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ASE-25000MHZ-L-C-T_Abracon.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description" "25 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ASE-25000MHZ-L-C-T_Abracon.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Abracon"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MPN" "ASE-25.000MHZ-L-C-T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "02-18-22"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SOURCE_URL" "https://www.snapeda.com/parts/ASE-25.000MHZ-L-C-T/Abracon/view-part/"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "ASE-25.000MHZ-L-C-T_0_0"
-				(rectangle
-					(start -20.32 -7.62)
-					(end 20.32 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -25.4 0 0)
-					(length 5.08)
-					(name "TRI-STATE(STBY)"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "GND/CASE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 5.08 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "portable_ultrasound:THS4552IRTWT"
 			(pin_names
 				(offset 0.254)
@@ -5745,18 +5507,6 @@
 		(uuid "586e9cd9-3e7f-456d-a0d6-c256b6cd444a")
 	)
 	(rectangle
-		(start 325.755 23.495)
-		(end 401.955 56.515)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "7d981875-b597-45fb-9e7e-3e019f39d88d")
-	)
-	(rectangle
 		(start 22.225 23.495)
 		(end 268.605 140.97)
 		(stroke
@@ -5914,19 +5664,6 @@
 		)
 		(uuid "c91c0f37-55e7-430b-8171-4c12e8899f38")
 	)
-	(text "ADC CLK"
-		(exclude_from_sim no)
-		(at 325.628 23.114 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c99b7284-241b-4c0b-b309-1e63a7c011ab")
-	)
 	(text "Filtered Power"
 		(exclude_from_sim no)
 		(at 273.558 22.606 0)
@@ -6029,12 +5766,6 @@
 		(uuid "1db0a6c4-4d0e-4f73-bb8a-8e5080c0fb95")
 	)
 	(junction
-		(at 382.27 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20ae16ff-11ef-433f-88f1-e7405cc67b6a")
-	)
-	(junction
 		(at 331.47 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6057,12 +5788,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4473fd47-0ece-4e33-acde-0866bd0b2034")
-	)
-	(junction
-		(at 382.27 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47923d6f-e89e-4213-abe3-a588ff97b3b4")
 	)
 	(junction
 		(at 137.16 106.68)
@@ -6441,10 +6166,6 @@
 		(uuid "19c3c09d-fea2-4fdf-90ca-e46cacd8909b")
 	)
 	(no_connect
-		(at 328.93 41.91)
-		(uuid "1f7f3778-37d5-466a-ade9-e0f32f97b870")
-	)
-	(no_connect
 		(at 59.69 204.47)
 		(uuid "35521bdd-306f-4579-94d5-ea73bf61eb8c")
 	)
@@ -6754,16 +6475,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 36.83) (xy 389.89 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1839ad4d-99e2-45c0-81fb-e18262180af4")
-	)
-	(wire
-		(pts
 			(xy 359.41 222.25) (xy 359.41 217.17)
 		)
 		(stroke
@@ -6964,16 +6675,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 46.99) (xy 382.27 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d565abd-2017-41d3-bbbf-9062645eb1d2")
-	)
-	(wire
-		(pts
 			(xy 45.72 181.61) (xy 59.69 181.61)
 		)
 		(stroke
@@ -6991,16 +6692,6 @@
 			(type default)
 		)
 		(uuid "2ebb3d0f-da77-45d2-9524-5e4ad165c608")
-	)
-	(wire
-		(pts
-			(xy 382.27 34.29) (xy 382.27 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed54a8c-2148-403c-95d4-795d93fcba3c")
 	)
 	(wire
 		(pts
@@ -7544,16 +7235,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 36.83) (xy 382.27 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63da2967-e206-4023-9f2b-ed23f699f491")
-	)
-	(wire
-		(pts
 			(xy 125.73 91.44) (xy 125.73 81.28)
 		)
 		(stroke
@@ -7984,16 +7665,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 36.83) (xy 389.89 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9062bfda-f75a-4cd9-94d7-6f1d364e395d")
-	)
-	(wire
-		(pts
 			(xy 146.05 73.66) (xy 149.86 73.66)
 		)
 		(stroke
@@ -8081,16 +7752,6 @@
 			(type default)
 		)
 		(uuid "99cabcd0-46c5-418a-8cdd-781f215d93a6")
-	)
-	(wire
-		(pts
-			(xy 382.27 46.99) (xy 382.27 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5f7bfe-7d25-41f0-8810-743acee3699d")
 	)
 	(wire
 		(pts
@@ -8201,16 +7862,6 @@
 			(type default)
 		)
 		(uuid "a883e46d-60ab-43fa-a66e-f270f9e8039d")
-	)
-	(wire
-		(pts
-			(xy 379.73 46.99) (xy 382.27 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e83ffa-0de3-4e4a-ab37-8fe68f9aec51")
 	)
 	(wire
 		(pts
@@ -9064,16 +8715,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 45.72) (xy 389.89 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4379586-a403-40f5-9b2c-cb3e3795330c")
-	)
-	(wire
-		(pts
 			(xy 100.33 99.06) (xy 105.41 99.06)
 		)
 		(stroke
@@ -9231,16 +8872,6 @@
 			(justify right bottom)
 		)
 		(uuid "34e0c604-dc16-4ba1-a697-af039241d0b4")
-	)
-	(label "ADCCLK"
-		(at 379.73 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c1637a1-eca8-462d-8382-afe53ad13e82")
 	)
 	(label "ADCIN1+"
 		(at 59.69 186.69 180)
@@ -10261,7 +9892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 336.55 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -10498,7 +10129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "PU_Lib:RTW0024A"
 			(at 246.38 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -10730,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 355.6 201.168 90)
 			(hide yes)
 			(show_name no)
@@ -12164,7 +11795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "PU_Lib:SW_100SP1T1B4M2QE"
 			(at 248.92 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +11877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 320.04 227.0252 0)
 			(hide yes)
 			(show_name no)
@@ -12485,7 +12116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 194.0052 0)
 			(hide yes)
 			(show_name no)
@@ -13369,7 +13000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 209.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -13846,7 +13477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "PU_Lib:RTW0024A"
 			(at 299.72 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14315,7 +13946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.372 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -14710,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -14790,7 +14421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 326.39 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -14953,7 +14584,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "PU_Lib:SOT96P240X110-3N"
 			(at 304.8 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -15114,7 +14745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.08 71.882 90)
 			(hide yes)
 			(show_name no)
@@ -15434,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 355.6 220.472 90)
 			(hide yes)
 			(show_name no)
@@ -15513,7 +15144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 186.9948 0)
 			(hide yes)
 			(show_name no)
@@ -15768,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 197.358 90)
 			(hide yes)
 			(show_name no)
@@ -15847,7 +15478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 294.64 222.6215 0)
 			(hide yes)
 			(show_name no)
@@ -16489,7 +16120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 336.55 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -16898,7 +16529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 219.71 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17177,84 +16808,6 @@
 			(project "Main_Board"
 				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 382.27 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c8c7bb0-5d1d-47ef-8675-871a52808fc3")
-		(property "Reference" "#PWR0174"
-			(at 382.27 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 382.27 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 382.27 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b86b52b2-eae9-4fe6-aeb0-65d130cbeaf6")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
-					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -18008,7 +17561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 209.55 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18879,7 +18432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 326.39 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -19700,7 +19253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 219.71 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19781,7 +19334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 216.662 90)
 			(hide yes)
 			(show_name no)
@@ -19824,83 +19377,6 @@
 			(project "Main_Board"
 				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
 					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 382.27 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6678d3e-fa5c-4969-b3f1-b92a8be730ca")
-		(property "Reference" "#PWR0155"
-			(at 382.27 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.27 51.816 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65f14bfa-067d-44f7-9f8b-7f0ffd01e374")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
-					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -20018,7 +19494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.07 213.868 90)
 			(hide yes)
 			(show_name no)
@@ -20579,7 +20055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 37.592 90)
 			(hide yes)
 			(show_name no)
@@ -20818,7 +20294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.08 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -20979,7 +20455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 194.0052 0)
 			(hide yes)
 			(show_name no)
@@ -21139,7 +20615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 295.402 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -21587,179 +21063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "portable_ultrasound:ASE-25.000MHZ-L-C-T")
-		(at 354.33 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f012f444-5a04-4ab4-b7a0-9c06b638ebd3")
-		(property "Reference" "Y1"
-			(at 354.33 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ASE-25.000MHZ-L-C-T"
-			(at 354.33 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ASE-25.000MHZ-L-C-T:XTAL_ASE-25.000MHZ-L-C-T"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ASE-25000MHZ-L-C-T_Abracon.pdf"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description" "25 MHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ASE-25000MHZ-L-C-T_Abracon.pdf"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2 mm"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "ASE-25.000MHZ-L-C-T"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "02-18-22"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SOURCE_URL" "https://www.snapeda.com/parts/ASE-25.000MHZ-L-C-T/Abracon/view-part/"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 354.33 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "4"
-			(uuid "acc6e070-29d3-452d-abe2-63c4f209bee3")
-		)
-		(pin "2"
-			(uuid "3679e584-7e6b-4b7f-a3e3-121200df6301")
-		)
-		(pin "3"
-			(uuid "8e589bbe-94c4-479b-9eb4-6931b3e7ccd7")
-		)
-		(pin "1"
-			(uuid "10c11183-13c4-441c-879c-6e5fdab74fa4")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 34.29 193.04 0)
 		(unit 1)
@@ -21993,88 +21296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 389.89 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f46db09d-9501-4d92-89a8-09982096fd71")
-		(property "Reference" "C77"
-			(at 393.7 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 393.7 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 390.8552 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 389.89 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bec6c895-33ed-4f28-b382-f1014efd8260")
-		)
-		(pin "1"
-			(uuid "823bf90c-a49f-4ca3-b4ec-d64f5c892a91")
-		)
-		(instances
-			(project "Main_Board"
-				(path "/c86b8f09-0c8d-4af3-b75d-3e3808973907/16d51cbf-ea56-46fd-b854-71c215d4041c"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
 		(at 233.68 193.04 90)
 		(unit 1)
@@ -22107,7 +21328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "PU_Lib:SW_100SP1T1B4M2QE"
 			(at 243.84 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -22511,7 +21732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTW0024A"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.8 222.6215 0)
 			(hide yes)
 			(show_name no)
@@ -22592,7 +21813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 286.512 41.91 90)
 			(hide yes)
 			(show_name no)
