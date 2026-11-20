@@ -4345,6 +4345,16 @@
 		)
 		(uuid "6e846ca7-0d82-4bc0-97da-8fc677210545")
 	)
+	(text "48 MHz Out"
+		(exclude_from_sim no)
+		(at 132.842 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72400607-1bf3-4322-a9d1-7ed124b3c1eb")
+	)
 	(text "VCC"
 		(exclude_from_sim no)
 		(at 211.836 59.944 0)
