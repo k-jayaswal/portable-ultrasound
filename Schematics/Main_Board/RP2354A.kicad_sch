@@ -5907,6 +5907,30 @@
 			)
 		)
 	)
+	(global_label "CLK_48"
+		(shape input)
+		(at 111.76 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2113a1b0-7f9a-4b44-a025-5b2979a63ebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6999 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VGE_G"
 		(shape input)
 		(at 111.76 93.98 0)
@@ -5920,6 +5944,30 @@
 		(uuid "382e6a69-40d5-4770-b0bf-6c174714c5f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.4904 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CLK_12"
+		(shape input)
+		(at 111.76 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40a3593c-46b7-4366-8aca-34daafa8cf6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.6999 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
